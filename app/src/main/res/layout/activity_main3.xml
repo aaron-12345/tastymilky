@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/cow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow Milk"
+            android:textColor="#03A9F4"
+            android:textSize="45dp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="51dp">
+
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1L"
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="118dp">
+
+        </CheckBox>
+
+
+        <CheckBox
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3L"
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="173dp">
+
+        </CheckBox>
+
+
+        <CheckBox
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5L"
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="221dp">
+
+        </CheckBox>
+
+
+        <TextView
+            android:id="@+id/goad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goat Milk"
+            android:textColor="#03A9F4"
+            android:textSize="45dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="281dp">
+
+        </TextView>
+
+
+        <CheckBox
+            android:id="@+id/fl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5L"
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="341dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/tl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3L"
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="389dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/ol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1L"
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="437dp">
+
+        </CheckBox>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="160dp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:background="#00BCD4"
+        android:text="ORDER"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
